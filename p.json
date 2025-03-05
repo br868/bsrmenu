@@ -1,0 +1,48 @@
+ var llamandoMenu = {
+    "menu": {
+      "items": [
+        {
+          "value": "MI Banco",
+          "onclick": "miBanco()"
+        },
+        {
+          "value": "Cuentas",
+            "submenu": [
+            {"value": "Cuenta de Corriente", "onclic": "Cuentacorriente"},
+            {"value": "Cuenta Digital", "onclick": "CuentadeDigital()"},
+            {"value": "Cuenta de Debito", "onclick": "CuentadeDebito()"}
+         ]
+        },
+        {
+          "value": "seguros",
+          "submenu": [
+            {"value": "Automovil", "onclick": "Segurosauto()"},
+            {"value": "Casa", "onclick": "SegurodeCasa()"},
+            {"value": "Negocio", "onclick": "SegurodeNegocio()"}
+          ]
+        },
+        {
+          "value": "Prestamos",
+          "submenu": [
+            {"value": "Prestamo para Vehiculo", "onclick": "prestamoauto()"},
+            {"value": "Prestamos para el Hogal", "onclick": "prestamoCasa()"},
+            {"value": "Prestamos para Negocio", "onclick": "prestamoNegocio()"},
+            {"value": "Prestamos Personal ", "onclick": "prestamoPersonal()"}
+        ]
+        },
+        {
+            "value": "Sobre Nosotros",
+            "onclick": "SobreNosotros()"
+        },
+        {
+            "value": "Contacto",
+            "onclick": "Contacto()"
+        }
+        
+
+      ]
+    }
+   
+  };
+
+  
