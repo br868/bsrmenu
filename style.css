@@ -7,6 +7,7 @@ body {
 
 nav {
     background-color:rgba(14, 126, 231, 0.82);
+	font-size:18px;
     color: #33abbd;
     width: 100%;
     padding: 0 1rem;
