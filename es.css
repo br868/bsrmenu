@@ -1,0 +1,77 @@
+/* Estilos básicos del navegador */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Barra de navegación */
+.navbar {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3661e2;
+  color: rgb(13, 12, 12);
+  padding: 10px 20px;
+}
+
+/* Lista de menús */
+.menu-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+/* Estilo para cada enlace */
+.menu-list li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+.menu-list li a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+/* Menú responsivo */
+.iconomenu {
+  display: none;
+  background: none;
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+/* Encabezado */
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .menu-list {
+      display: none;
+      flex-direction: column;
+      background-color: #3661e2;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      width: 100%;
+  }
+
+  .menu-list.active {
+      display: flex;
+  }
+
+  .iconomenu {
+      display: block;
+  }
+}
