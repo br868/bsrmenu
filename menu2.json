@@ -1,0 +1,21 @@
+
+
+ menu = [
+    {
+     "texto": "Inicio",
+     "enlace": "#inicio" 
+    },
+    { 
+        "texto": "Acerca de",
+         "enlace": "#acerca" 
+    },
+    { 
+        "texto": "Prestamo", 
+        "enlace": "#acerca"        
+    },
+    { 
+        "texto": "Contacto", 
+        "enlace": "#contacto" 
+    }
+];
+
